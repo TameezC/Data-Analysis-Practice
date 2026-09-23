@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project focuses on extracting, cleaning, and analyzing raw transactional data exported from an enterprise ERP system. The goal of the analysis is to restructure messy data, audit revenue streams, identify operational leaks (such as returns), and automate the generation of professional financial summaries.
+This project focuses on extracting, cleaning, and analyzing raw transactional data exported from an enterprise SSRS system. The goal of the analysis is to restructure messy data, audit revenue streams, identify operational leaks (such as returns), and automate the generation of professional financial summaries.
 
 ## Tech Stack
 
@@ -14,7 +14,7 @@ This project focuses on extracting, cleaning, and analyzing raw transactional da
 
 ## Key Challenges Solved
 
-* **ERP Structure Cleaning:** Successfully bypassed generic system headers and empty rows typical of raw ERP exports to programmatically assign the correct data taxonomy.
+* **SSRS Structure Cleaning:** Successfully bypassed generic system headers and empty rows typical of raw SSRS exports to programmatically assign the correct data taxonomy.
 * **Pricing & VAT Auditing:** Reverse-calculated the 15% South African Value-Added Tax (VAT) from the consumer-facing price to verify the base revenue, distinguishing true system discounts from standard tax exclusions.
 * **Anomaly Detection & Ledger Correction:** Identified a catastrophic human data-entry error (a single return logged at R 852,000,000.00). Programmatically cross-referenced historical sales to determine the true list price (R 9,800.00) and corrected the ledger without destroying the transaction history.
 * **Automated Financial Reporting:** Engineered a script to aggregate top customers, highest-performing lines of business, and top revenue leaks, exporting the cleaned insights directly into a stylized, presentation-ready Excel dashboard.
