@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project focuses on extracting, cleaning, and analyzing raw transactional data exported from an enterprise SSRS system. The goal of the analysis is to restructure messy data, audit revenue streams, identify operational leaks (such as returns), and automate the generation of professional financial summaries.
+This project focuses on extracting, cleaning, and analyzing a raw sales report downloaded as an Excel file from an enterprise SQL Server Reporting Services (SSRS) environment.
 
 ## Tech Stack
 
